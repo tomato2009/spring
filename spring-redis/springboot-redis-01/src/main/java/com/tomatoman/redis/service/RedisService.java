@@ -1,5 +1,7 @@
 package com.tomatoman.redis.service;
 
+import java.util.Map;
+
 public interface RedisService {
 
     /**
@@ -31,5 +33,4 @@ public interface RedisService {
      * @return
      */
     boolean remove(String key);
-
 }
