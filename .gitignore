@@ -4,3 +4,8 @@ logs/
 target/
 
 .gitignore
+
+mvnw
+mvnw.*
+.gitignore
+.mvn
