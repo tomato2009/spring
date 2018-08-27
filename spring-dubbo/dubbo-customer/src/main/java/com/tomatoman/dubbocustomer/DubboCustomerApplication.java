@@ -22,6 +22,6 @@ public class DubboCustomerApplication {
     @PostConstruct
     public void init() {
     	String sayHello = demoService.sayHello("world");
-    	System.err.println(sayHello);
+    	System.err.println("=====================================================" + sayHello);
     }
 }
